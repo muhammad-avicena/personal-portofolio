@@ -1,0 +1,13 @@
+img {
+    height: auto;
+    width: auto;
+}
+
+.social-icon a {
+    color: white; /* set the default color */
+  }
+  
+  .social-icon a:hover {
+    color: black; /* set the color on hover */
+  }
+  
