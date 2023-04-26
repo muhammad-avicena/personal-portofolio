@@ -1,6 +1,12 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import reactjs from "../assets/img/react-icon.svg";
+import nextjs from "../assets/img/nextjs-icon.png";
+import vuejs from "../assets/img/Vue-icon.png";
+import dotnet from "../assets/img/dotnet.png";
+import nodejs from "../assets/img/nodejs.png";
+import expressjs from "../assets/img/Expressjs.png";
+import flutter from "../assets/img/flutter.png";
+import reactnative from "../assets/img/react-icon.svg";
+import dart from "../assets/img/dart.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import arrow1 from "../assets/img/arrow1.svg";
@@ -46,8 +52,49 @@ export const Skills = () => {
                 className="owl-carousel owl-theme skill-slider"
               >
                 <div className="item">
-                  <img src={meter2} alt="Image" />
-                  <h5>Brand Identity</h5>
+                  <img src={reactjs} alt="Image" />
+                  <h5>React.js</h5>
+                  <h6>Front-End</h6>
+                </div>
+                <div className="item">
+                  <img src={nextjs} alt="Image" />
+                  <h5>Next.js</h5>
+                  <h6>Front-End</h6>
+                </div>
+                <div className="item">
+                  <img src={vuejs} alt="Image" />
+                  <h5>Vue.js</h5>
+                  <h6>Front-End</h6>
+                </div>
+                <div className="item">
+                  <img src={dotnet} alt="Image" />
+                  <h5>.NET</h5>
+                  <h6>Back-End</h6>
+                </div>
+                <div className="item">
+                  <img src={nodejs} alt="Image" />
+                  <h5>Node.js</h5>
+                  <h6>Back-End</h6>
+                </div>
+                <div className="item">
+                  <img src={expressjs} alt="Image" />
+                  <h5>Express.js</h5>
+                  <h6>Back-End</h6>
+                </div>
+                <div className="item">
+                  <img src={reactnative} alt="Image" />
+                  <h5>React Native</h5>
+                  <h6>Mobile</h6>
+                </div>
+                <div className="item">
+                  <img src={flutter} alt="Image" />
+                  <h5>Flutter</h5>
+                  <h6>Mobile</h6>
+                </div>
+                <div className="item">
+                  <img src={dart} alt="Image" />
+                  <h5>Dart</h5>
+                  <h6>Mobile</h6>
                 </div>
               </Carousel>
             </div>

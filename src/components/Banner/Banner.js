@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../../assets/img/header-img.svg";
+import headerImg from "../../assets/img/code-typing.svg";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
 import "./Banner.css";
@@ -82,7 +82,7 @@ export const Banner = () => {
                     and using the latest tools to develop innovative solutions
                     that surpass expectations.
                   </p>
-                  <button onClick={() => console.log("connect")}>
+                  <button onClick={() => (window.location.href = "#connect")}>
                     Let's Connect <ArrowRightCircle size={25} />
                   </button>
                 </div>

@@ -10,7 +10,6 @@ import "./People.css";
 export const People = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -29,15 +28,15 @@ export const People = () => {
   };
 
   return (
-    <section className="skill" id="skills">
+    <section className="people" id="people">
       <div className="container">
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2>TESTIMONIALS</h2>
+            <h2 style={{ fontSize: '36px' }}>TESTIMONIALS</h2>
               <p>
-                Below are some feedbacks from individuals who have worked
-                with me :
+                Below are some feedbacks from individuals who have worked with
+                me :
               </p>
               <Carousel
                 responsive={responsive}
@@ -45,50 +44,56 @@ export const People = () => {
                 className="owl-carousel owl-theme skill-slider"
               >
                 <div className="item">
-                  <h5>
+                  <h6>
                     "One of Avicena's strongest skills is his ability to remain
                     objective even in the most challenging situations. He is
                     able to separate personal biases from facts and make
                     informed decisions that benefit everyone involved. His
                     approach to problem-solving is logical and thorough,
                     ensuring that all aspects of an issue are carefully
-                    considered before a solution is implemented."
-                  </h5>
-                  <h5>
+                    considered before a solution is implemented.
+                  </h6>
+                  <h6>
                     I highly recommend Muhammad Avicena for any position that
                     requires a supportive partner, an objective thinker, and a
                     skilled public speaker. I am confident that he will make a
                     valuable contribution."
-                  </h5>
-                  <img src={radit} alt="radit" />
-                  <h5>Radithya Airlangga</h5>
-                  <h6>Full Stack Developer at Formulatrix Indonesia</h6>
+                  </h6>
+                  <div className="people">
+                    <img src={radit} alt="radit" />
+                    <h5>Radithya Airlangga</h5>
+                    <h6>Front End Developer at Formulatrix Indonesia</h6>
+                  </div>
                 </div>
                 <div className="item">
-                  <h5>
+                  <h6>
                     "Having worked with Cena for the past two years made me
                     confident that he is a diligent individual. He has shown his
                     willingness to learn while giving his best on every task. He
                     is very open to self improvement and good at communicating
                     his ideas. I am certain that he'll be a wonderful asset for
                     any company he's in."
-                  </h5>
-                  <img src={theo} alt="theo" />
-                  <h5>Theo Gee</h5>
-                  <h6>
-                    Penultimate Information Technology @ SGU | Ex-Tokopedia
                   </h6>
+                  <div className="people">
+                    <img src={theo} alt="theo" />
+                    <h5>Theo Gee</h5>
+                    <h6>
+                      Penultimate Information Technology @ SGU | Ex-Tokopedia
+                    </h6>
+                  </div>
                 </div>
                 <div className="item">
-                  <h5>
+                  <h6>
                     "I highly recommend Kak Avicena as a mentor because not only
                     was his explanations easy to understand, but he was also
                     engaging to talk. The private class that he made helped me a
                     lot to purse my career as Software Engineer"
-                  </h5>
-                  <img src={Jonathan} alt="jonathan" />
-                  <h5>Suryateja Jonathan Gandha</h5>
-                  <h6>Bachelor of Computer Science at BINUS University</h6>
+                  </h6>
+                  <div className="people">
+                    <img src={Jonathan} alt="jonathan" />
+                    <h5>Suryateja Jonathan Gandha</h5>
+                    <h6>Bachelor of Computer Science at BINUS University</h6>
+                  </div>
                 </div>
               </Carousel>
             </div>

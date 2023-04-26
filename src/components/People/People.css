@@ -3,3 +3,13 @@
     max-width: 100px; /* set the maximum width of the image to 100 pixels */
     max-height: 100px; /* set the maximum height of the image to 100 pixels */
 }
+
+  /* .item {
+    position: relative;
+    height: 100%;
+  } */
+  
+.item .people1 {
+    position: relative;
+    margin-top: 30px;
+}
