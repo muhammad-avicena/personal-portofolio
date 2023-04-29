@@ -1,107 +1,196 @@
-import radit from "../../assets/img/radit.jpg";
-import theo from "../../assets/img/theo.jpg";
-import Jonathan from "../../assets/img/Jonathan.jpg";
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
-import colorSharp from "../../assets/img/color-sharp.png";
-import colorSharp2 from "../../assets/img/color-sharp2.png";
-import "./Aboutme.css";
+import React from "react";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
+import { MdWorkOutline, MdOutlineSchool, MdStars } from "react-icons/md";
+import "./AboutMe.css";
+import { styled } from "@mui/material/styles";
+import Box from "@mui/material/Box";
+import Paper from "@mui/material/Paper";
+import Grid from "@mui/material/Grid";
+import profile from "../../assets/img/profile.jpg";
 
-export const Aboutme = () => {
-  const responsive = {
-    superLargeDesktop: {
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5,
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2,
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-    },
-  };
+const Item = styled(Paper)(({ theme }) => ({
+  backgroundColor: "transparent",
+  padding: theme.spacing(1),
+  textAlign: "center",
+  color: "white",
+  boxShadow: "none",
+}));
 
+const Item1 = styled(Paper)(({ theme }) => ({
+  backgroundColor: "transparent",
+  padding: theme.spacing(1),
+  textAlign: "left",
+  color: "white",
+  boxShadow: "none",
+}));
+
+const AboutMe = () => {
   return (
-    <section className="people" id="aboutme">
-      <div className="container">
-        <div className="row">
-          <div className="col-12">
-            <div className="skill-bx wow zoomIn">
-            <h2 style={{ fontSize: '36px' }}>TESTIMONIALS</h2>
-              <p>
-                Below are some feedbacks from individuals who have worked with
-                me :
-              </p>
-              <Carousel
-                responsive={responsive}
-                infinite={true}
-                className="owl-carousel owl-theme skill-slider"
-              >
-                <div className="item">
-                  <h6>
-                    "One of Avicena's strongest skills is his ability to remain
-                    objective even in the most challenging situations. He is
-                    able to separate personal biases from facts and make
-                    informed decisions that benefit everyone involved. His
-                    approach to problem-solving is logical and thorough,
-                    ensuring that all aspects of an issue are carefully
-                    considered before a solution is implemented.
-                  </h6>
-                  <h6>
-                    I highly recommend Muhammad Avicena for any position that
-                    requires a supportive partner, an objective thinker, and a
-                    skilled public speaker. I am confident that he will make a
-                    valuable contribution."
-                  </h6>
-                  <div className="people">
-                    <img src={radit} alt="radit" />
-                    <h5>Radithya Airlangga</h5>
-                    <h6>Front End Developer at Formulatrix Indonesia</h6>
-                  </div>
-                </div>
-                <div className="item">
-                  <h6>
-                    "Having worked with Cena for the past two years made me
-                    confident that he is a diligent individual. He has shown his
-                    willingness to learn while giving his best on every task. He
-                    is very open to self improvement and good at communicating
-                    his ideas. I am certain that he'll be a wonderful asset for
-                    any company he's in."
-                  </h6>
-                  <div className="people">
-                    <img src={theo} alt="theo" />
-                    <h5>Theo Gee</h5>
-                    <h6>
-                      Penultimate Information Technology @ SGU | Ex-Tokopedia
-                    </h6>
-                  </div>
-                </div>
-                <div className="item">
-                  <h6>
-                    "I highly recommend Kak Avicena as a mentor because not only
-                    was his explanations easy to understand, but he was also
-                    engaging to talk. The private class that he made helped me a
-                    lot to purse my career as Software Engineer"
-                  </h6>
-                  <div className="people">
-                    <img src={Jonathan} alt="jonathan" />
-                    <h5>Suryateja Jonathan Gandha</h5>
-                    <h6>Bachelor of Computer Science at BINUS University</h6>
-                  </div>
-                </div>
-              </Carousel>
+    <>
+      <section className="aboutme" id="aboutme">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <div className="aboutme-bx wow zoomIn">
+                <h2>About me</h2>
+                <Box
+                  sx={{
+                    flexGrow: 1,
+                  }}
+                >
+                  <Grid container spacing={3}>
+                    <Grid item xs={4}>
+                      <Item>
+                        <img
+                          src={profile}
+                          alt="profile"
+                          style={{
+                            borderRadius: "50%",
+                            border: "5px solid rgb(170, 54, 124)",
+                          }}
+                        />
+                      </Item>
+                    </Grid>
+                    <Grid item xs={8}>
+                      <Item1>
+                        <p>
+                          I am a driven and hard-working individual with a
+                          passion for creating elegant solutions in the least
+                          amount of time. I am committed to learning and
+                          self-development in order to consistently achieve
+                          better results.
+                          <br />
+                          <br />
+                          Passionate about building world-class web applications
+                          and am always highly enthused about future
+                          technologies. With this background, I am well-equipped
+                          to lead and succeed in the fast-paced world of IT.
+                          Whether working on a team or individually, I am
+                          confident in my ability to deliver high-quality
+                          results and contribute to the success of any project.
+                        </p>
+                      </Item1>
+                    </Grid>
+                  </Grid>
+                </Box>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <img className="background-image-left" src={colorSharp} alt="Image" />
-      <img className="background-image-right" src={colorSharp2} alt="Image" />
-    </section>
+      </section>
+      <h2
+        style={{
+          textAlign: "center",
+          fontWeight: "bold",
+          margin: "1rem 0",
+        }}
+      >
+        Career Path
+      </h2>
+      <VerticalTimeline>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          date="2011 - present"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<MdWorkOutline />}
+        >
+          <h3 className="vertical-timeline-element-title">Creative Director</h3>
+          <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+          <p>
+            Creative Direction, User Experience, Visual Design, Project
+            Management, Team Leading
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2010 - 2011"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<MdWorkOutline />}
+        >
+          <h3 className="vertical-timeline-element-title">Art Director</h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            San Francisco, CA
+          </h4>
+          <p>
+            Creative Direction, User Experience, Visual Design, SEO, Online
+            Marketing
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2008 - 2010"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<MdWorkOutline />}
+        >
+          <h3 className="vertical-timeline-element-title">Web Designer</h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Los Angeles, CA
+          </h4>
+          <p>User Experience, Visual Design</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2006 - 2008"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<MdWorkOutline />}
+        >
+          <h3 className="vertical-timeline-element-title">Web Designer</h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            San Francisco, CA
+          </h4>
+          <p>User Experience, Visual Design</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="April 2013"
+          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+          icon={<MdOutlineSchool />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Content Marketing for Web, Mobile and Social Media
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
+          <p>Strategy, Social Media</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="November 2012"
+          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+          icon={<MdOutlineSchool />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Agile Development Scrum Master
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">Certification</h4>
+          <p>Creative Direction, User Experience, Visual Design</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2002 - 2006"
+          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+          icon={<MdOutlineSchool />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Bachelor of Science in Interactive Digital Media Visual Imaging
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Bachelor Degree
+          </h4>
+          <p>Creative Direction, Visual Design</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
+          icon={<MdStars />}
+        />
+      </VerticalTimeline>
+    </>
   );
 };
+
+export default AboutMe;
