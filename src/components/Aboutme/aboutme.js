@@ -94,97 +94,132 @@ const AboutMe = () => {
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
+          date="Jan 2023 - Mar 2023"
           contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          date="2011 - present"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<MdWorkOutline />}
         >
-          <h3 className="vertical-timeline-element-title">Creative Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+          <h3 className="vertical-timeline-element-title">
+            RnD Software Engineer - Front End
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Formulatrix Indonesia
+          </h4>
           <p>
-            Creative Direction, User Experience, Visual Design, Project
-            Management, Team Leading
+            ◉ Promoted to full-time employee after completing internship <br />
+            ◉ Leading and managing the development of the web application,
+            including coordinating the work of the intern team and ensuring that
+            the project stays on track and meets deadlines. <br />
+            ◉ Worked closely with stakeholders to understand their needs and
+            requirements and incorporate their feedback into the project. <br />
+            ◉ Utilized agile software development methodologies to ensure that
+            the project remained flexible to changing requirements. <br />◉
+            Developed a web application using cutting-edge technologies and
+            tools, such as React.js, Redux, REST APIs, ASP .NET, Open Project,
+            SourceTree, Githlab.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2010 - 2011"
+          date="Oct 2022 - Dec 2022"
+          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<MdWorkOutline />}
         >
-          <h3 className="vertical-timeline-element-title">Art Director</h3>
+          <h3 className="vertical-timeline-element-title">
+            RnD Software Engineer Internship - Front End
+          </h3>
           <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
+            Formulatrix Indonesia
           </h4>
           <p>
-            Creative Direction, User Experience, Visual Design, SEO, Online
-            Marketing
+            ◉ Worked on a variety of projects and responsibilities such as
+            WebApp Chat System, Website E-Store, Formulatrix Common UI Library,
+            Formulatrix Inventory Tools.
+            <br />
+            ◉ Lead a team of three other interns.
+            <br />◉ Created technical documentation, including user manuals and
+            design specifications, to ensure that the project was
+            well-documented and easy to maintain
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2008 - 2010"
+          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          date="June 2022 - July 2022"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<MdWorkOutline />}
         >
-          <h3 className="vertical-timeline-element-title">Web Designer</h3>
+          <h3 className="vertical-timeline-element-title">
+            SEO & SEM Internship
+          </h3>
           <h4 className="vertical-timeline-element-subtitle">
-            Los Angeles, CA
+            PT Garuda Solusi Kreatif{" "}
           </h4>
-          <p>User Experience, Visual Design</p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="2006 - 2008"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<MdWorkOutline />}
-        >
-          <h3 className="vertical-timeline-element-title">Web Designer</h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
-          </h4>
-          <p>User Experience, Visual Design</p>
+          <p>
+            ◉ Developed a website & implemented SEO and SEM strategies for
+            DonerKingBab (SMEs) <br />
+            ◉ Significantly increased total clicks on website and Instagram page
+            by 130% <br />◉ Increased online traffic and helped drive more
+            business to DonerKingBab (SMEs)
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="April 2013"
+          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          date="Aug 2020 - Jan 2023"
           iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
           icon={<MdOutlineSchool />}
         >
           <h3 className="vertical-timeline-element-title">
-            Content Marketing for Web, Mobile and Social Media
+            Swiss German University
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-          <p>Strategy, Social Media</p>
+          <h5 className="vertical-timeline-element-subtitle">
+            Bachelor of Information Technology
+          </h5>
+          <p>
+            ◉ Specializing in IT Technopreneurship <br />
+            ◉ Member of Student Ambassador <br />
+            ◉ Awarded 50% Scholarship <br />
+          </p>
+          <p className="vertical-timeline-element-subtitle">Organization :</p>
+          <p>
+            ◉ Head of SAU/UKM E-Sport | 2021 - 2022 <br />
+            Under my supervision, SAU/UKM E-Sport become one of the most Active
+            and Popular in Swiss German University with 60+ Members.
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="November 2012"
+          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          date="Aug 2014 -  April 2020"
           iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
           icon={<MdOutlineSchool />}
         >
           <h3 className="vertical-timeline-element-title">
-            Agile Development Scrum Master
+            Semesta Bilingual Boarding School
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-          <p>Creative Direction, User Experience, Visual Design</p>
+          <h5 className="vertical-timeline-element-subtitle">Student</h5>
+          <p className="vertical-timeline-element-subtitle">Organization :</p>
+          <p>
+            ◉ President of Class | 2014 - 2020
+            <br />
+            ◉ Head of Rohis Semesta | 2015 - 2016 <br />
+            ◉ Head of PASKIBRAKA | 2018 - 2019 <br />
+            ◉ Bantara Pramuka | 2018 - 2019 <br />
+            ◉ Head of Folkore | 2018 - 2019
+            <br />
+            ◉ Div. Creative Comm. - Oase Care | 2021 - 2022
+            <br />
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="2002 - 2006"
-          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-          icon={<MdOutlineSchool />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Bachelor of Science in Interactive Digital Media Visual Imaging
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            Bachelor Degree
-          </h4>
-          <p>Creative Direction, Visual Design</p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
+          date="Born in Bandung, 2002"
           iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
           icon={<MdStars />}
         />
