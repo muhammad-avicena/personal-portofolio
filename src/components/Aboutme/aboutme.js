@@ -5,7 +5,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { MdWorkOutline, MdOutlineSchool, MdStars } from "react-icons/md";
-import "./AboutMe.css";
+import "./Aboutme.css";
 import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
@@ -28,7 +28,7 @@ const Item1 = styled(Paper)(({ theme }) => ({
   boxShadow: "none",
 }));
 
-const AboutMe = () => {
+export const AboutMe = () => {
   return (
     <>
       <section className="aboutme" id="aboutme">
@@ -227,5 +227,3 @@ const AboutMe = () => {
     </>
   );
 };
-
-export default AboutMe;
