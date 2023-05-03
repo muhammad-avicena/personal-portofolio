@@ -9,8 +9,6 @@ import reactnative from "../assets/img/react-icon.svg";
 import dart from "../assets/img/dart.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png";
 
 export const Skills = () => {
@@ -52,47 +50,47 @@ export const Skills = () => {
                 className="owl-carousel owl-theme skill-slider"
               >
                 <div className="item">
-                  <img src={reactjs} alt="Image" />
+                  <img src={reactjs} alt="" />
                   <h5>React.js</h5>
                   <h6>Front-End</h6>
                 </div>
                 <div className="item">
-                  <img src={nextjs} alt="Image" />
+                  <img src={nextjs} alt="" />
                   <h5>Next.js</h5>
                   <h6>Front-End</h6>
                 </div>
                 <div className="item">
-                  <img src={vuejs} alt="Image" />
+                  <img src={vuejs} alt="" />
                   <h5>Vue.js</h5>
                   <h6>Front-End</h6>
                 </div>
                 <div className="item">
-                  <img src={dotnet} alt="Image" />
+                  <img src={dotnet} alt="" />
                   <h5>.NET</h5>
                   <h6>Back-End</h6>
                 </div>
                 <div className="item">
-                  <img src={nodejs} alt="Image" />
+                  <img src={nodejs} alt="" />
                   <h5>Node.js</h5>
                   <h6>Back-End</h6>
                 </div>
                 <div className="item">
-                  <img src={expressjs} alt="Image" />
+                  <img src={expressjs} alt="" />
                   <h5>Express.js</h5>
                   <h6>Back-End</h6>
                 </div>
                 <div className="item">
-                  <img src={reactnative} alt="Image" />
+                  <img src={reactnative} alt="" />
                   <h5>React Native</h5>
                   <h6>Mobile</h6>
                 </div>
                 <div className="item">
-                  <img src={flutter} alt="Image" />
+                  <img src={flutter} alt="" />
                   <h5>Flutter</h5>
                   <h6>Mobile</h6>
                 </div>
                 <div className="item">
-                  <img src={dart} alt="Image" />
+                  <img src={dart} alt="" />
                   <h5>Dart</h5>
                   <h6>Mobile</h6>
                 </div>
@@ -101,7 +99,7 @@ export const Skills = () => {
           </div>
         </div>
       </div>
-      <img className="background-image-left" src={colorSharp} alt="Image" />
+      <img className="background-image-left" src={colorSharp} alt="" />
     </section>
   );
 };
