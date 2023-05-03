@@ -607,12 +607,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Footer Css ************/
+
+
 .footer {
-  padding: 0 0 50px 0;
+  padding: 0 0 80px 0;
   background-image: url('./assets/img/footer-bg.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.footer-right {
+  margin-top: 50px;
 }
 .newsletter-bx {
   background: #FFFFFF;
@@ -683,4 +689,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+
+@media only screen and (max-width:480px) {
+  .logo img {
+    text-align: center;
+    justify-content: center;
+    width: 30%;
+  }
+
+  .footer .footer-img img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+  }
 }

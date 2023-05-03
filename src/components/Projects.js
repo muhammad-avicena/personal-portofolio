@@ -11,7 +11,8 @@ export const Projects = () => {
   const projects = [
     {
       title: "Inventory Management Tools",
-      description: "A Software that helps businesses track and manage their inventory",
+      description:
+        "A Software that helps businesses track and manage their inventory",
       imgUrl: projImg1,
     },
     {
@@ -21,7 +22,8 @@ export const Projects = () => {
     },
     {
       title: "React UI Library",
-      description: "A Collection of reusable user interface components designed specifically for scientific research applications at Formulatrix.",
+      description:
+        "A Collection of reusable user interface components designed specifically for scientific research applications at Formulatrix.",
       imgUrl: projImg3,
     },
   ];
@@ -36,7 +38,12 @@ export const Projects = () => {
                 <div>
                   <h2>Projects</h2>
                   <p>
-                    Here's some projects that I've built so far. Some projects also involves a team of experts with diverse background.
+                    Below are some projects that I have built, either
+                    individually or in collaboration with a team of experts with
+                    diverse backgrounds. These projects showcase my technical
+                    abilities and my experience working on challenging problems.
+                    Each project represents a unique problem-solving
+                    opportunity, and I am proud of the results achieved.
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
@@ -45,7 +52,7 @@ export const Projects = () => {
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Web Development</Nav.Link>
+                        <Nav.Link eventKey="first">Web-Based</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="second">Mini-Project</Nav.Link>
@@ -63,22 +70,10 @@ export const Projects = () => {
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
-                        </p>
+                        <p>None</p>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
-                        </p>
+                        <p>None</p>
                       </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>

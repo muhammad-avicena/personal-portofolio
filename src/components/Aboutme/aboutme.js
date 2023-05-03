@@ -45,27 +45,24 @@ export const AboutMe = () => {
                   <Grid container spacing={3}>
                     <Grid item xs={4}>
                       <Item>
-                        <img
-                          src={profile}
-                          alt="profile"
-                          style={{
-                            borderRadius: "50%",
-                            border: "5px solid rgb(170, 54, 124)",
-                          }}
-                        />
+                        <div className="img-container">
+                          <img src={profile} alt="profile" />
+                          <h5>Muhammad Avicena Rahmadianto</h5>
+                        </div>
                       </Item>
                     </Grid>
-                    <Grid item xs={8}>
+                    <Grid item xs={12} md={8}>
                       <Item1>
                         <p>
-                          I am a driven and hard-working individual with a
-                          passion for creating elegant solutions in the least
-                          amount of time. I am committed to learning and
-                          self-development in order to consistently achieve
-                          better results.
+                          Hello World ! I'm Avicena. Born
+                          in Bandung 2002. I am a driven and hard-working
+                          individual person with a passion for creating elegant
+                          solutions in the least amount of time. I am committed
+                          to learning and self-development in order to
+                          consistently achieve better results.
                           <br />
                           <br />
-                          Passionate about building world-class web applications
+                          Passionate about building world-class any applications
                           and am always highly enthused about future
                           technologies. With this background, I am well-equipped
                           to lead and succeed in the fast-paced world of IT.
