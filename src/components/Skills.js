@@ -50,47 +50,47 @@ export const Skills = () => {
                 className="owl-carousel owl-theme skill-slider"
               >
                 <div className="item">
-                  <img src={reactjs} alt="" />
+                  <img src={reactjs} alt="react-icon" />
                   <h5>React.js</h5>
                   <h6>Front-End</h6>
                 </div>
                 <div className="item">
-                  <img src={nextjs} alt="" />
+                  <img src={nextjs} alt="next-icon" />
                   <h5>Next.js</h5>
                   <h6>Front-End</h6>
                 </div>
                 <div className="item">
-                  <img src={vuejs} alt="" />
+                  <img src={vuejs} alt="vue-icon" />
                   <h5>Vue.js</h5>
                   <h6>Front-End</h6>
                 </div>
                 <div className="item">
-                  <img src={dotnet} alt="" />
+                  <img src={dotnet} alt="dotnet-icon" />
                   <h5>.NET</h5>
                   <h6>Back-End</h6>
                 </div>
                 <div className="item">
-                  <img src={nodejs} alt="" />
+                  <img src={nodejs} alt="node-icon" />
                   <h5>Node.js</h5>
                   <h6>Back-End</h6>
                 </div>
                 <div className="item">
-                  <img src={expressjs} alt="" />
+                  <img src={expressjs} alt="express-icon" />
                   <h5>Express.js</h5>
                   <h6>Back-End</h6>
                 </div>
                 <div className="item">
-                  <img src={reactnative} alt="" />
+                  <img src={reactnative} alt="reactNative-icon" />
                   <h5>React Native</h5>
                   <h6>Mobile</h6>
                 </div>
                 <div className="item">
-                  <img src={flutter} alt="" />
+                  <img src={flutter} alt="flutter-icon" />
                   <h5>Flutter</h5>
                   <h6>Mobile</h6>
                 </div>
                 <div className="item">
-                  <img src={dart} alt="" />
+                  <img src={dart} alt="dart-icon" />
                   <h5>Dart</h5>
                   <h6>Mobile</h6>
                 </div>
@@ -99,7 +99,7 @@ export const Skills = () => {
           </div>
         </div>
       </div>
-      <img className="background-image-left" src={colorSharp} alt="" />
+      <img className="background-image-left" src={colorSharp} alt="bgImg-left" />
     </section>
   );
 };

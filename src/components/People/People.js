@@ -100,8 +100,8 @@ export const People = () => {
           </div>
         </div>
       </div>
-      <img className="background-image-left" src={colorSharp} alt="Image" />
-      <img className="background-image-right" src={colorSharp2} alt="Image" />
+      <img className="background-image-left" src={colorSharp} alt="bgImg-left" />
+      <img className="background-image-right" src={colorSharp2} alt="bgImg-right" />
     </section>
   );
 };

@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<img width="950" alt="landing-page" src="https://user-images.githubusercontent.com/49929404/235074755-c3273251-0ca4-421f-be38-0b0c095dedb8.PNG">
+width="950" alt="landing-page" src="https://user-images.githubusercontent.com/49929404/235074755-c3273251-0ca4-421f-be38-0b0c095dedb8.PNG">
 
 Built using:
 
@@ -11,7 +11,6 @@ Built using:
 - CSS animations library: Animate.css
 
 In the /personal-portfolio, you can run:
-
 
 ### `npm start`
 
